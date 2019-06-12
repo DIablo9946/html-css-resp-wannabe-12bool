@@ -204,6 +204,10 @@
     margin-left: calc((100% / 12) * 3);
   }
 
+  .col-md-offset-3half{
+    margin-left: calc((100% / 12) * 3.5);
+  }
+
   .col-md-offset-4{
     margin-left: calc((100% / 12) * 4);
   }
