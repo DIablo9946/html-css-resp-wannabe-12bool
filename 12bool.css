@@ -132,6 +132,9 @@
   .col-lg-offset-12{
     margin-left: 100%;
   }
+
+
+
 }
 
 
@@ -244,8 +247,12 @@
     margin-left: 100%;
   }
 
+  .third {
+    margin-top: 40px;
+  }
+
   /* .right {
-    padding-top: 50px;
+    padding-top: 100px;
   } */
 }
 
@@ -307,6 +314,10 @@
     margin-left: 0;
   }
 
+  .col-xs-offset-0half{
+    margin-left: calc((100% / 12) * 0.5);
+  }
+
   .col-xs-offset-1{
     margin-left: calc((100% / 12) * 1);
   }
@@ -355,7 +366,12 @@
     margin-left: 100%;
   }
 
+  [class*='col-']{
+    margin-bottom: 50px;
+  }
+
+
   /* #why.right {
-    padding-top: 50px;
+    padding-top: 100px;
   } */
 }
